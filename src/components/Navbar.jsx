@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-between items-center">
-        <h1 className="font-bold text-3xl">ARTY</h1>
+        <h1 className="font-bold text-3xl">UGART</h1>
         <div
           className={
             nav
@@ -18,7 +18,7 @@ export default function Navbar() {
           }
         >
           <div className="flex justify-between w-full md:hidden">
-            <h1 className="font-bold text-3xl">ARTY</h1>
+            <h1 className="font-bold text-3xl">UGART</h1>
             <img src={close} alt="" onClick={handleClick} />
           </div>
 
