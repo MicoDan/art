@@ -8,7 +8,7 @@ export default function Footer() {
            Call this number for more info :
         </h2>
         <h2 className="uppercase text-2xl font-bellefair text-start md:text-center">
-           07888898989
+        +256 758 985249
         </h2>
        
       </section>
