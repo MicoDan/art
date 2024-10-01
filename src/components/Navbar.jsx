@@ -1,11 +1,5 @@
 import { Link } from "react-router-dom";
-import search from "../assets/Search-icon.svg";
-import cart from "../assets/Cart-icon.svg";
-import notification from "../assets/Notification-icon.svg";
-import hamburger from "../assets/hamburger.svg";
-import close from "../assets/close.svg";
 import { useState } from "react";
-
 export default function Navbar() {
   const [nav, setNav] = useState(false);
 
@@ -15,10 +9,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-between items-center">
-        <div className="md:hidden" onClick={handleClick}>
-          <img src={hamburger} alt="" />
-        </div>
-        <h1 className="font-bold text-3xl">ARTSY.</h1>
+        <h1 className="font-bold text-3xl">ARTY</h1>
         <div
           className={
             nav
@@ -27,11 +18,14 @@ export default function Navbar() {
           }
         >
           <div className="flex justify-between w-full md:hidden">
-            <h1 className="font-bold text-3xl">ARTSY.</h1>
+            <h1 className="font-bold text-3xl">ARTY</h1>
             <img src={close} alt="" onClick={handleClick} />
           </div>
 
-          <Link
+          
+        </div>
+        <div className="flex items-center gap-4">
+        <Link
             to="/"
             className="text-2xl md:text-base font-semibold md:font-normal text-black"
           >
@@ -43,23 +37,6 @@ export default function Navbar() {
           >
             Marketplace
           </Link>
-          <Link
-            to="/auctions"
-            className="text-2xl md:text-base font-semibold md:font-normal text-black"
-          >
-            Auctions
-          </Link>
-          <Link
-            to="/drop"
-            className="text-2xl md:text-base font-semibold md:font-normal text-black"
-          >
-            Drop
-          </Link>
-        </div>
-        <div className="flex items-center gap-4">
-          <img src={search} alt="" className="w-10" />
-          <img src={cart} alt="" className="w-10" />
-          <img src={notification} alt="" className="w-10 hidden md:block" />
         </div>
       </nav>
     </>
