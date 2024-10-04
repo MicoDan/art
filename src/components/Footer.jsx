@@ -16,7 +16,7 @@ export default function Footer() {
       <footer>
         <div className="flex items-center justify-between">
           <div className="hidden md:block">
-            <h1 className="font-bold text-3xl">UGART</h1>
+            <h1 className="font-bold text-3xl">Hope Gallery</h1>
           </div>
           <div className="hidden md:flex gap-20 ">
             <div className="flex flex-col text-start gap-4">
