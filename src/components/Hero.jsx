@@ -26,8 +26,7 @@ export default function Hero() {
       <section className="mt-10">
         {/* Main Heading */}
         <h1 className="text-3xl md:text-5xl font-abel md:w-[50rem] mx-auto text-center">
-          Art is not a mirror held up to reality, but a hammer with which to
-          shape it
+        The beauty of art communicates to the observer a chance to rise up beyond the current status.
         </h1>
         {/* Subtext */}
         <p className="mt-4 md:mt-12 text-lg md:text-xl md:w-[40rem] mx-auto text-center">
