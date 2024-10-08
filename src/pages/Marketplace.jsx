@@ -10,6 +10,12 @@ import six from "../assets/six.jpg";
 import seven from "../assets/seven.jpg";
 import eight from "../assets/eight.jpg";
 import nine from "../assets/nine.png";
+import un from '../assets/un.jpg'
+import deux from '../assets/deux.jpg'
+import trois from '../assets/trois.jpg'
+import quatre from '../assets/quatre.jpg'
+import cinq from '../assets/cinq.jpg'
+import sept from '../assets/sept.jpg'
 
 export default function Marketplace() {
 
@@ -31,7 +37,7 @@ export default function Marketplace() {
       <section className="my-10"></section>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
-        {[one, two, three, four, five, six, seven, eight, nine].map((image, index) => (
+        {[one, two, three, four, five, six, seven, eight, nine, un, deux, trois, quatre, cinq, sept].map((image, index) => (
           <div key={index} className="bg-white shadow-2xl rounded-md p-4">
             <img
               src={image}
