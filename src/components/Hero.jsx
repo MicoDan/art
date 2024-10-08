@@ -31,8 +31,7 @@ export default function Hero() {
         {/* Subtext */}
         <p className="mt-4 md:mt-12 text-lg md:text-xl md:w-[40rem] mx-auto text-center">
           Explore a vast collection of over 20 vintage artworks, classic
-          paintings, and historical masterpieces all in one place. Browse
-          through timeless pieces, and experience the rich history of art.
+          paintings, and historical masterpieces all in one place.
         </p>
 
         {/* Image Section */}
@@ -63,9 +62,7 @@ export default function Hero() {
             <p className="text-start text-base md:text-lg mb-5">
               This piece captures the ethereal beauty of a forest illuminated by
               radiant sunlight, breaking through the trees and casting long
-              shadows. The bright, glowing light in the center symbolizes hope
-              or enlightenment, with the natural environment surrounding it in a
-              serene yet vibrant atmosphere.
+              shadows. 
             </p>
           </div>
           <div className="my-10">
@@ -88,10 +85,7 @@ export default function Hero() {
             </h3>
             <p className="text-start text-base md:text-lg mb-5">
               The artwork presents a poised and graceful figure adorned with
-              pearls, draped in a striking blue fabric. The pose and flowing
-              lines create a sense of movement and empowerment, with the pearls
-              adding an element of sophistication. It portrays both strength and
-              beauty in a dynamic fashion.
+              pearls, draped in a striking blue fabric. 
             </p>
           </div>
           <div className="my-10">
@@ -114,9 +108,7 @@ export default function Hero() {
             </h3>
             <p className="text-start text-base md:text-lg mb-5">
               The contrasting shades of yellow, red, and green symbolize the
-              vibrant energy of life and freedom. The simple yet expressive
-              silhouettes evoke a sense of culture, unity, and celebration of
-              nature and hope over the horizon.
+              vibrant energy of life and freedom.
             </p>
           </div>
           <div className="my-10">
